@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TonyTech - innovative Web Solutions</title>
+    <meta name="description" content="World-class website solutions crafted by TonyTech">
+    <meta property="og:title" content="TonyTech - Elite Web Solutions">
+    <meta property="og:description" content="Transform your digital presence with TonyTech's world-class solutions">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-particles"></div>
+    <div class="cursor"></div>
+    
+    <nav class="navbar">
+        <div class="logo">Tony<span>Tech</span></div>
+        <div class="profile-image">
+            <!-- Add your photo URL here -->
+            <img src="img/anthony.jpg" alt="TonyTech">
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#video">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="animated-text">
+                <h1 class="glitch" data-text="TonyTech">TonyTech</h1>
+                <div class="typing-text"></div>
+            </div>
+            <p class="subtitle">Crafting Digital Excellence for Forward-Thinking Businesses</p>
+            <div class="cta-buttons">
+                <button class="contact-btn" onclick="scrollToContact()">Contact Me</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2>Transforming Ideas into Digital Reality</h2>
+            <div class="video-container">
+                <div class="video-placeholder">
+                    <!-- <div class="play-button"> -->
+                        <svg viewBox="0 0 24 24" width="164" height="164">
+                            <!-- <path fill="currentColor" d="M8 5v14l11-7z"/> -->
+                            <source src="img/adver2.mp4" type="video/mp4">
+                        </svg>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Create Something Extraordinary</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TonyTech</h3>
+                    <p>Elevating digital experiences to new heights</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>anthonyajibola65@gmail.com </p>
+                    <p>08088645311</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TonyTech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
