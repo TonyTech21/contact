@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TonyTech - innovative Web Solutions</title>
     <meta name="description" content="World-class website solutions crafted by TonyTech">
-    <meta property="og:title" content="TonyTech - Elite Web Solutions">
+    <meta property="og:title" content="TonyTech - Elite Digital Solutions">
     <meta property="og:description" content="Transform your digital presence with TonyTech's world-class solutions">
     <meta property="og:image" content="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070">
     <link rel="stylesheet" href="style.css">
@@ -46,12 +46,16 @@
             <h2>Transforming Ideas into Digital Reality</h2>
             <div class="video-container">
                 <div class="video-placeholder">
-                    <!-- <div class="play-button"> -->
-                        <svg viewBox="0 0 24 24" width="164" height="164">
-                            <!-- <path fill="currentColor" d="M8 5v14l11-7z"/> -->
-                            <source src="img/adver2.mp4" type="video/mp4">
+                    <div class="play-button">
+                      <video controls>
+                        <source src="img/adver2.mp4" style="height: fit-content;width: fit-content;background-size: contain;" type="video/mp4">
+                        <!-- <path fill="currentColor" d="M8 5v14l11-7z"/> -->
+                    </video>
+                        <!-- <svg viewBox="0 0 24 24" width="64" height="64"> -->
+                            
+                        
                         </svg>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,17 +64,17 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Let's Create Something Extraordinary</h2>
-            <form id="contactForm" class="contact-form">
+            <form id="contactForm" class="contact-form" action="https://submit-form.com/EcExcHTEV">
                 <div class="form-group">
-                    <input type="text" id="name" required>
+                    <input name="name" type="text" id="name" required>
                     <label for="name">Your Name</label>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" required>
+                    <input name="email" type="email" id="email" required>
                     <label for="email">Your Email</label>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" required></textarea>
+                    <textarea name="maessage" id="message" required></textarea>
                     <label for="message">Your Message</label>
                 </div>
                 <button type="submit" class="submit-btn">Send Message</button>
